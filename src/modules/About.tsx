@@ -26,7 +26,7 @@ export default function About() {
           />
         </span>
         <ContactMeSection />
-        <p className='text-lg opacity-75 max-w-2xl mx-auto sm:p-4'>
+        <p className='text-lg mx-auto sm:p-4'>
           Dallas, TX based software developer specializing in modern web
           development
         </p>
@@ -71,6 +71,9 @@ export default function About() {
 
       {/* Projects Section */}
       <ProjectsSection />
+      <footer className='text-center text-white/50 pb-4'>
+        © 2024 Harrison Kidd. All rights reserved.
+      </footer>
     </div>
   )
 }

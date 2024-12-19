@@ -13,7 +13,7 @@ export default function ContactMeSection() {
           <FaLinkedin className='text-3xl text-white' />
           <div className='text-left'>
             <h4 className='text-sm font-bold text-white'>LinkedIn</h4>
-            <p className='text-gray-400'>@Harrison Kidd</p>
+            <p className='text-white/50'>@Harrison Kidd</p>
           </div>
         </a>
       </div>
