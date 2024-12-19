@@ -25,6 +25,7 @@ export default function About() {
             className='rounded-lg shadow-lg h-40 w-40'
           />
         </span>
+        <ContactMeSection />
         <p className='text-lg opacity-75 max-w-2xl mx-auto sm:p-4'>
           Dallas, TX based software developer specializing in modern web
           development
@@ -70,9 +71,6 @@ export default function About() {
 
       {/* Projects Section */}
       <ProjectsSection />
-
-      {/* Contact Callout */}
-      <ContactMeSection />
     </div>
   )
 }

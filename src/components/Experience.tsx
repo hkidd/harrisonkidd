@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import { FaLaptopCode, FaSearch, FaTools } from 'react-icons/fa'
 import { FaHandshakeSimple } from 'react-icons/fa6'
 import { IoRocketSharp } from 'react-icons/io5'
@@ -9,13 +9,13 @@ export default function ExperienceSection() {
     {
       title: 'Full Stack Development',
       description:
-        '3 years of experience specializing in building robust web applications from front-end to back-end.',
+        '3+ years of experience in building robust web applications from front-end to back-end.',
       icon: <FaTools />
     },
     {
       title: 'Front-End Focused',
       description:
-        'Exceptional skills in JavaScript, React, and HTML/CSS to craft user-friendly, modern interfaces.',
+        'Exceptional skills in JavaScript/Typescript, React, and HTML/CSS to craft user-friendly, modern interfaces.',
       icon: <FaLaptopCode />
     },
     {
