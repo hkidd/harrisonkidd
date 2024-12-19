@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export default function ProjectsSection() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const projects = [
-    {
-      title: 'EV Ranger',
-      description:
-        'A modern, responsive portfolio site built with React and TailwindCSS.',
-      image: 'https://via.placeholder.com/300x200', // Need to replace with actual image
-      link: 'https://evranger.com'
-    }
-  ]
+  // const projects = [
+  //   {
+  //     title: 'EV Ranger',
+  //     description:
+  //       'A modern, responsive portfolio site built with React and TailwindCSS.',
+  //     image: 'https://via.placeholder.com/300x200', // Need to replace with actual image
+  //     link: 'https://evranger.com'
+  //   }
+  // ]
 
   return (
     <section className='text-white px-8 m-10'>
