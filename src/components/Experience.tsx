@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import { FaLaptopCode, FaSearch, FaTools } from 'react-icons/fa'
 import { FaHandshakeSimple } from 'react-icons/fa6'
 import { IoRocketSharp } from 'react-icons/io5'
@@ -39,16 +39,14 @@ export default function ExperienceSection() {
   ]
 
   return (
-    <section className='text-primary px-8 m-10'>
-      <div className='max-w-6xl mx-auto'>
+    <section className='text-primary px-8 pt-0 m-10'>
+      <div className='max-w-2xl mx-auto'>
         {/* Toggle Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className='w-full transition-colors text-primary font-bold py-4 px-6 rounded-lg flex justify-between items-center'
         >
-          <span className='text-2xl tracking-tight'>
-            My Professional Experience
-          </span>
+          <span className='text-2xl tracking-tight'> Experience</span>
           <span className='text-3xl transform transition-transform duration-700'>
             {isOpen ? '▲' : '▼'}
           </span>
@@ -57,7 +55,7 @@ export default function ExperienceSection() {
         {/* Experience List */}
         <div
           className={`overflow-auto transition-all duration-700 ease-in-out ${
-            isOpen ? 'max-h-screen opacity-100 mt-8' : 'max-h-0 opacity-0'
+            isOpen ? 'opacity-100 mt-8' : 'max-h-0 opacity-0'
           }`}
         >
           <ul className='space-y-8'>

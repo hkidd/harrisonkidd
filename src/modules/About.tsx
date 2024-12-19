@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className='min-h-screen bg-secondary text-white font-sans'>
       {/* Header Section */}
-      <header className='px-4 pt-10 pb-8 text-center'>
+      <header className='px-4 pt-8 pb-4 text-center'>
         <h1 className='text-5xl font-bold tracking-tight mb-4 text-gray-300'>
           Hi, I'm{' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#4ECCA3] to-[#FF9F45] drop-shadow-lg'>
@@ -36,16 +36,6 @@ export default function About() {
       <section className='flex justify-center gap-8 flex-wrap'>
         {[
           {
-            title: 'Texas Ex',
-            icon: <IoSchool />,
-            specialClassName: 'hover:bg-[#cc5500] hover:text-primary'
-          },
-          {
-            title: 'Front End',
-            icon: <FaReact />,
-            specialClassName: 'hover:bg-gray-950 hover:text-primary'
-          },
-          {
             title: 'Dog Dad',
             icon: <GiSittingDog />,
             specialClassName: 'hover:bg-[#F6D992] hover:text-gray-950'
@@ -54,6 +44,16 @@ export default function About() {
             title: 'EV Nerd',
             icon: <MdElectricCar />,
             specialClassName: 'hover:bg-[#4ECCA3] hover:text-primary'
+          },
+          {
+            title: 'Front End',
+            icon: <FaReact />,
+            specialClassName: 'hover:bg-gray-950 hover:text-primary'
+          },
+          {
+            title: 'Texas Ex',
+            icon: <IoSchool />,
+            specialClassName: 'hover:bg-[#cc5500] hover:text-primary'
           }
         ].map((item, index) => (
           <div

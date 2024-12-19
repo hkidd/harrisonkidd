@@ -14,11 +14,11 @@ export default function ProjectsSection() {
   // ]
 
   return (
-    <section className='text-white px-8 m-10'>
-      <div className='max-w-6xl mx-auto'>
+    <section className='text-primary px-8 pt-0 m-10'>
+      <div className='max-w-2xl mx-auto'>
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className='w-full transition-colors text-white font-bold py-4 px-6 rounded-lg flex justify-between items-center'
+          className='w-full transition-colors text-primary font-bold py-4 px-6 rounded-lg flex justify-between items-center'
         >
           <span className='text-2xl tracking-tight'>Projects</span>
           <span className='text-3xl transform transition-transform duration-700'>
@@ -28,7 +28,7 @@ export default function ProjectsSection() {
 
         {/* Project List */}
         <div
-          className={`overflow-auto transition-all duration-700 ease-in-out ${
+          className={`text-center overflow-auto transition-all duration-700 ease-in-out ${
             isOpen ? 'opacity-100 mt-8' : 'max-h-0 opacity-0'
           }`}
         >

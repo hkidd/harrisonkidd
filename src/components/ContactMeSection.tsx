@@ -2,7 +2,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 export default function ContactMeSection() {
   return (
-    <section className='py-2 text-center'>
+    <section className='text-center'>
       <div className='flex justify-center items-center'>
         <a
           href='https://www.linkedin.com/in/harrison-kidd'
