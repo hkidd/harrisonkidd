@@ -25,8 +25,6 @@ export default function ProjectsSection() {
             {isOpen ? '▲' : '▼'}
           </span>
         </button>
-
-        {/* Project List */}
         <div
           className={`text-center overflow-auto transition-all duration-700 ease-in-out ${
             isOpen ? 'opacity-100 mt-8' : 'max-h-0 opacity-0'

@@ -41,7 +41,6 @@ export default function ExperienceSection() {
   return (
     <section className='text-primary px-8 pt-0 m-10'>
       <div className='max-w-2xl mx-auto'>
-        {/* Toggle Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className='w-full transition-colors text-primary font-bold py-4 px-6 rounded-lg flex justify-between items-center'
@@ -51,8 +50,6 @@ export default function ExperienceSection() {
             {isOpen ? '▲' : '▼'}
           </span>
         </button>
-
-        {/* Experience List */}
         <div
           className={`overflow-auto transition-all duration-700 ease-in-out ${
             isOpen ? 'opacity-100 mt-8' : 'max-h-0 opacity-0'
@@ -64,10 +61,7 @@ export default function ExperienceSection() {
                 key={index}
                 className='flex flex-col md:flex-row items-start md:items-center gap-6 bg-gray-900 p-6 rounded-lg shadow-lg hover:bg-gray-950 transition-all'
               >
-                {/* Icon */}
                 <div className='flex-shrink-0 text-4xl'>{item.icon}</div>
-
-                {/* Content */}
                 <div>
                   <h3 className='text-xl font-semibold mb-2'>{item.title}</h3>
                   <p className='text-lg opacity-80 leading-relaxed'>
