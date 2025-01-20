@@ -35,7 +35,7 @@ export default function ProjectsSection() {
             {projects.map((project, index) => (
               <li
                 key={index}
-                className='flex flex-col lg:flex-row items-center gap-6 bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700 transition-all'
+                className='flex flex-col lg:flex-row items-center gap-6 bg-gray-900 p-6 rounded-lg shadow-lg hover:bg-gray-950 transition-all'
               >
                 <div className='w-full lg:w-1/3'>
                   <img
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
                     href={project.link}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='inline-block px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg shadow-md text-white transition-all'
+                    className='inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-md text-white transition-all'
                   >
                     View Project
                   </a>
