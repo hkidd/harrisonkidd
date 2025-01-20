@@ -1,17 +1,18 @@
 import { useState } from 'react'
+import EvRangerScreenshot from '../assets/assets/images/EV-Ranger-screenshot.png'
 
 export default function ProjectsSection() {
   const [isOpen, setIsOpen] = useState(false)
 
-  // const projects = [
-  //   {
-  //     title: 'EV Ranger',
-  //     description:
-  //       'A modern, responsive portfolio site built with React and TailwindCSS.',
-  //     image: 'https://via.placeholder.com/300x200', // Need to replace with actual image
-  //     link: 'https://evranger.com'
-  //   }
-  // ]
+  const projects = [
+    {
+      title: 'EV Ranger',
+      description:
+        'Compare electric vehicles by range and find the best fit for your needs.  Built with NextUI, React, TailwindCSS, and TypeScript.',
+      image: EvRangerScreenshot,
+      link: 'https://ev-ranger.vercel.app/'
+    }
+  ]
 
   return (
     <section className='text-primary px-8 pt-0 m-10'>
@@ -30,8 +31,7 @@ export default function ProjectsSection() {
             isOpen ? 'opacity-100 mt-8' : 'max-h-0 opacity-0'
           }`}
         >
-          <span className='px-6 text-xl tracking-tight'>Coming Soon</span>
-          {/* <ul className='space-y-8'>
+          <ul className='space-y-8'>
             {projects.map((project, index) => (
               <li
                 key={index}
@@ -62,7 +62,7 @@ export default function ProjectsSection() {
                 </div>
               </li>
             ))}
-          </ul> */}
+          </ul>
         </div>
       </div>
     </section>
