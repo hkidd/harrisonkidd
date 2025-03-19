@@ -10,7 +10,7 @@ export default function ProjectsSection() {
       description:
         'Compare electric vehicles by range and find the best fit for your needs.  Built with NextUI, React, TailwindCSS, and TypeScript.',
       image: EvRangerScreenshot,
-      link: 'https://ev-ranger.vercel.app/'
+      link: 'https://www.evranger.io/'
     }
   ]
 
